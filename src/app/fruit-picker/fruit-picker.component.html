@@ -1,0 +1,12 @@
+<div class="container">
+  <ul class="list-group" *ngFor="let fruit of AllFruits">
+    <li class="list-group-item">
+      <input
+        type="checkbox"
+        [(ngModel)]="fruit.isSelected"
+        (change)="fetchSelectedItems()"
+      />
+      {{ fruit.label }}
+    </li>
+  </ul>
+</div>
