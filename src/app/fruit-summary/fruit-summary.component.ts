@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Service } from 'src/app/service.service';
+import { Service } from '../service.service';
 
 @Component({
   selector: 'app-fruit-summary',

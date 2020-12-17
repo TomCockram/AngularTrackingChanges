@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Service, FruitItem } from 'src/app/service.service';
+import { Service, FruitItem } from '../service.service';
 
 @Component({
   selector: 'app-fruit-picker',
